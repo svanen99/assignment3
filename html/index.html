@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Game</title>
+    <link rel="stylesheet" href="../game.css">
+</head>
+<body>
+
+    <h1 id="title">Word guessing game!</h1>
+    <div id="word-display"></div>
+    <div id="hangman-display"></div>
+    <div id="buttons-container"></div>
+    <p id="remaining-attempts">Remaining Attempts: <span id="attempts-count">6</span></p>
+    <div id="gameover-screen" style="display: none;">
+        <h1>Game Over</h1>
+        <p id="gameover-message"></p>
+        <button id="restart-button">Restart</button>
+    </div>
+    
+
+    <script src="../game.js" defer></script>
+</body>
+</html>
