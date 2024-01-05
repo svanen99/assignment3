@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function endGame(isWinner) {
         if (isWinner) {
-            showWinnerScreen("Look at you! The right word was " + word);
+            showWinnerScreen("Look at you! You got the word right. The right word was " + word);
         } else {
             showGameoverScreen("Sorry mate! The correct word was " + word);
         }

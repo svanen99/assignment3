@@ -6,7 +6,7 @@
     --extra--color:#ffdfe5;
     --extra--extracolor:#dbcfd1;
     --detail--color:#FF928B;
-
+    
 }
 
 html {
@@ -19,6 +19,25 @@ body {
     padding: 0;
 }
 
+button {
+    width: 70px; 
+    height: 52px; 
+    cursor: pointer;
+    font-size: 22px;
+    padding: 12px;
+    border-radius: 7px;
+    margin-right: 3px;
+    border-style: groove;
+    border-color: var(--primary--textcolor);
+    text-align: center;
+    background-color: var(--detail--color);
+}
+
+
+#buttons-container {
+    text-align: center;
+    margin: 62px;
+}
 #title {
     background-color: var(--detail--color);
     color:var(--primary--textcolor);
@@ -85,32 +104,11 @@ body {
 #remaining-attempts {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    padding: 200px;
+    padding: 166px;
     text-align: center;
     position: sticky;
-    
-
 }
 
-button {
-    width: 70px; 
-    height: 52px; 
-    cursor: pointer;
-    font-size: 22px;
-    padding: 12px;
-    border-radius: 7px;
-    margin-right: 3px;
-    border-style: groove;
-    border-color: var(--primary--textcolor);
-    text-align: center;
-    background-color: var(--detail--color);
-}
-
-
-#buttons-container {
-    text-align: center;
-    margin: 62px;
-}
 
 #word-display {
     display: block;
@@ -118,17 +116,11 @@ button {
     padding: 22px;
     font-size: 30px;
     position: fixed;
-    top: 58%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1; 
 }
-
-
-
-
-
-
 
 
 @media screen and (max-width: 600px){
